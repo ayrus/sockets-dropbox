@@ -1,6 +1,8 @@
 sockets-dropbox
 ===============
 
+
+
 About
 -----
 
@@ -10,6 +12,7 @@ completed as a part of my second year coursework (Spring 2012) for an
 [assignment](http://www.cdf.toronto.edu/~csc209h/winter/posted_assignments/a4.shtml).
 
 
+
 Usage
 -----
 
@@ -17,6 +20,7 @@ Compile the source using the Makefile provided.
 
 Server Usage: Execute dbserver.
 Client Usage: dbclient -h server_hostname -d directory_to_sync -u username
+
 
 
 Info
@@ -46,6 +50,7 @@ Info
   present in the directory being shared, if so its name, size and last
   modified time are populated in this client's file\_info array to enable
   effective shared synchronization.
+  
 
   * Once the server is in a state to send an empty sync\_message to a
   client as well; this is said to be "completion of a CYCLE". After
